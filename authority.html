@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>權限管理</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="One page parallax responsive HTML Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="generator" content="Themefisher Bingo HTML Template v1.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="https://www.csim.org.tw/sites/default/files/CSIM.gif" />
+
+  <!-- CSS  ================================================== -->
+  <!-- Themefisher Icon font -->
+  <link rel="stylesheet" href="plugins/themefisher-font/style.css">
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- Lightbox.min css -->
+  <link rel="stylesheet" href="plugins/lightbox2/css/lightbox.min.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="body">
+
+  <!-- Start Preloader ==================================== -->
+  <div id="preloader">
+    <div class='preloader'>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <!-- End Preloader ==================================== -->
+
+  <!--  Fixed Navigation  ===================================== -->
+	<header class="navigation fixed-top">
+		<div class="container">
+			<!-- main nav -->
+			<nav class="navbar navbar-expand-lg navbar-light px-0">
+				<!-- logo -->
+				<a class="navbar-brand logo" href="home.html">
+					<img loading="lazy" class="logo-default" style="width: 300px; height: auto;" src="https://images.squarespace-cdn.com/content/v1/5e1350e919199c488a7c6651/27961e07-46cd-49f3-8739-53e9df2c43cd/outer-banks-5eaed5543712c.png"
+						alt="logo" />
+					<img loading="lazy" class="logo-white" style="width: 300px; height: auto;" src="https://images.squarespace-cdn.com/content/v1/5e1350e919199c488a7c6651/27961e07-46cd-49f3-8739-53e9df2c43cd/outer-banks-5eaed5543712c.png"
+						alt="logo" />
+				</a>
+				<!-- /logo -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+					aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navigation">
+					<ul class="navbar-nav ml-auto text-center">
+						<li class="nav-item dropdown active">
+							<a class="nav-link" href="home.html">首頁</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="course_center.html" id="navbarDropdown02" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								課程專區<i class="tf-ion-chevron-down"></i>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown02">
+								<li><a class="dropdown-item" href="course_center.html">課程清單</a></li>
+								<li><a class="dropdown-item" href="views.html">觀看數據</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="member.html" id="navbarDropdown02" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								會員專區<i class="tf-ion-chevron-down"></i>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown03">
+								<li><a class="dropdown-item" href="member.html">會員管理</a></li>
+								<li><a class="dropdown-item" href="add_member.htm">新增會員</a></li>
+							</ul>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="authority.html">權限管理</a>
+						</li>
+						<li class="nav-item ">
+              <a class="nav-link" href="login.html">登入</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+			<!-- /main nav -->
+		</div>
+	</header>
+	<!--  End Fixed Navigation  ==================================== -->
+
+
+  <section class="single-page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>權限管理</h2>
+          <ol class="breadcrumb header-bradcrumb justify-content-center">
+            <li class="breadcrumb-item"><a href="About.html" class="text-white">課程專區</a></li>
+            <li class="breadcrumb-item active" aria-current="page">權限管理</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--
+Start Call To Action
+==================================== -->
+
+  <section class="call-to-action-2 section">
+    <div class="container">
+      <div class="row justify-content-center">
+        
+        <section class="about-shot-info section-sm">
+          <div class="container" style="color: white;">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="center">
+                  <p style="text-align: center;">這裡是「權限管理」頁面，您可以檢視、編輯及管理各使用者的帳號權限，以確保教學影片的使用規範符合角色需求。
+                    <br>請依照需求調整使用者角色</p></br></br>
+                </div>
+              </div>
+            </div>
+      
+            <h3 style="text-align: center;">使用者列表</h3></br>
+              <div style="text-align: center; color: black;">
+                <div class="mb-4">
+                  <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#adduser" aria-expanded="false" aria-controls="adduser">
+                    新增使用者</br>
+                  </button>
+                  <div class="collapse" id="adduser"></br>
+                    <div class="card card-body" style="width: 700px; text-align: center; margin: 0 auto;">
+                    <form action="繳交資料的php(還沒建立)" method="post">
+                      <div class="form-group">
+                        <label for="role">角色</label><br>
+                        <select id="role" name="role">
+                          <option value="none">請選擇</option>
+                          <option value="student">學生</option>
+                          <option value="teacher">教師</option>
+                          <option value="manager">管理員</option>
+                        </select><br><br>
+                      </div>
+                        <div class="form-group">
+                          <label for="user-name">姓名</label>
+                          <input type="text" class="form-control" id="user-name" name="user-name" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">電子信箱</label>
+                          <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                          <label for="courseDate"> </label>
+                          <input type="date" class="form-control" id="courseDate" name="courseDate" required>
+                        </div>
+                        <button type="submit" class="btn btn-light" data-toggle="modal" data-target="#submit">
+                        提交</button>
+                        <div class="modal fade" id="submit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+      
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="myModalLabel">提交成功！</h5>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">確認</button>
+                          </div></div></div></div>
+      
+                      </form>
+                    </div>
+                  </div>
+                </div></br>
+                <table class="table table-hover align=center" style="background-color: rgba(255, 255, 255, 0.725);box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.121);">
+                  <tr>
+                    <th></th>
+                    <th>姓名</th>
+                    <th>角色</th>
+                    <th>檢視影片</th>
+                    <th>上傳影片</th>
+                    <th>管理帳號</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>A</td>
+                    <td>學生</td>
+                    <td>
+                      <label class="switch" style="width: 60px; height: 34px;">
+                        <input type="checkbox" id="permission1" checked>
+                        <span class="slider round"></span>
+                      </label>
+                    </td>
+                    <td>
+                      <label class="switch">
+                        <input type="checkbox" id="permission2">
+                        <span class="slider round"></span>
+                      </label>
+                    </td>
+                    <td>
+                      <label class="switch">
+                        <input type="checkbox" id="permission3">
+                        <span class="slider round"></span>
+                      </label>
+                     </td>
+                    <td><button type="button" class="btn btn-success" data-toggle="modal" data-target="#save">
+                      儲存</button>
+                      <div class="modal fade" id="save" tabindex="-1" role="dialog" aria-labelledby="save" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="save">儲存成功！</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#stopaccount">
+                      停用</button>
+                      <div class="modal fade" id="stopaccount" tabindex="-1" role="dialog" aria-labelledby="stopaccount" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="stopaccount">確認停用</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-danger" data-dismiss="modal">確認</button>
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                            </div></div></div></div></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>B</td>
+                    <td>學生</td>
+                    <td>
+                      <label class="switch" style="width: 60px; height: 34px;">
+                        <input type="checkbox" id="permission1" checked>
+                        <span class="slider round"></span>
+                      </label>
+                    </td>
+                    <td>
+                      <label class="switch">
+                        <input type="checkbox" id="permission2">
+                        <span class="slider round"></span>
+                      </label>
+                    </td>
+                    <td>
+                      <label class="switch">
+                        <input type="checkbox" id="permission3">
+                        <span class="slider round"></span>
+                      </label>
+                     </td>
+                    <td><button type="button" class="btn btn-success" data-toggle="modal" data-target="#save">
+                      儲存</button>
+                      <div class="modal fade" id="save" tabindex="-1" role="dialog" aria-labelledby="save" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="save">儲存成功！</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#stopaccount">
+                      停用</button>
+                      <div class="modal fade" id="stopaccount" tabindex="-1" role="dialog" aria-labelledby="stopaccount" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="stopaccount">確認停用</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-danger" data-dismiss="modal">確認</button>
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                            </div></div></div></div></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>N</td>
+                    <td>管理者</td>
+                    <td>
+                      <label class="switch" style="width: 60px; height: 34px;">
+                        <input type="checkbox" id="permission1" checked>
+                        <span class="slider round"></span>
+                      </label>
+                    </td>
+                    <td>
+                      <label class="switch">
+                        <input type="checkbox" id="permission2" checked>
+                        <span class="slider round"></span>
+                      </label>
+                    </td>
+                    <td>
+                      <label class="switch">
+                        <input type="checkbox" id="permission3" checked>
+                        <span class="slider round"></span>
+                      </label>
+                     </td>
+                    <td><button type="button" class="btn btn-success" data-toggle="modal" data-target="#save">
+                      儲存</button>
+                      <div class="modal fade" id="save" tabindex="-1" role="dialog" aria-labelledby="save" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="save">儲存成功！</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#stopaccount">
+                      停用</button>
+                      <div class="modal fade" id="stopaccount" tabindex="-1" role="dialog" aria-labelledby="stopaccount" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="stopaccount">確認停用</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-danger" data-dismiss="modal">確認</button>
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                            </div></div></div></div></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>P</td>
+                    <td>教師</td>
+                    <td>
+                      <label class="switch" style="width: 60px; height: 34px;">
+                        <input type="checkbox" id="permission1" checked>
+                        <span class="slider round"></span>
+                      </label>
+                    </td>
+                    <td>
+                      <label class="switch">
+                        <input type="checkbox" id="permission2" checked>
+                        <span class="slider round"></span>
+                      </label>
+                    </td>
+                    <td>
+                      <label class="switch">
+                        <input type="checkbox" id="permission3">
+                        <span class="slider round"></span>
+                      </label>
+                     </td>
+                    <td><button type="button" class="btn btn-success" data-toggle="modal" data-target="#save">
+                      儲存</button>
+                      <div class="modal fade" id="save" tabindex="-1" role="dialog" aria-labelledby="save" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="save">儲存成功！</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#stopaccount">
+                      停用</button>
+                      <div class="modal fade" id="stopaccount" tabindex="-1" role="dialog" aria-labelledby="stopaccount" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="stopaccount">確認停用</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-danger" data-dismiss="modal">確認</button>
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                            </div></div></div></div></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>L</td>
+                    <td>學生</td>
+                    <td>
+                      <label class="switch" style="width: 60px; height: 34px;">
+                        <input type="checkbox" id="permission1" checked>
+                        <span class="slider round"></span>
+                      </label>
+                    </td>
+                    <td>
+                      <label class="switch">
+                        <input type="checkbox" id="permission2" >
+                        <span class="slider round"></span>
+                      </label>
+                    </td>
+                    <td>
+                      <label class="switch">
+                        <input type="checkbox" id="permission3" >
+                        <span class="slider round"></span>
+                      </label>
+                     </td>
+                    <td><button type="button" class="btn btn-success" data-toggle="modal" data-target="#save">
+                      儲存</button>
+                      <div class="modal fade" id="save" tabindex="-1" role="dialog" aria-labelledby="save" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="save">儲存成功！</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#stopaccount">
+                      停用</button>
+                      <div class="modal fade" id="stopaccount" tabindex="-1" role="dialog" aria-labelledby="stopaccount" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="stopaccount">確認停用</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-danger" data-dismiss="modal">確認</button>
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                            </div></div></div></div></td>
+                  </tr>
+                  
+                  <div></div>
+                </table></br>
+              </div>
+      
+      <!--------        課程影片中心        -------->
+      
+          </div>
+          </div>
+          </div>
+          </div>
+        </section>
+
+  </section> <!-- End section -->
+
+
+  <!-- end Footer Area
+========================================== -->
+  <br />
+  <footer>
+    <div class="small text-center text-muted fst-italic">會址：251301 新北市淡水區英專路151號（資管系辦公室）<br>
+      No.151, Yingzhuan Rd., Tamsui Dist., New Taipei City 251301, Taiwan (R.O.C.)<br>
+      e-mail：csim.service@gmail.com(link sends e-mail)<br>
+      中華民國資訊管理學會 版權所有@2013 CSIM All Rights Reserved.</div><br>
+  </footer>
+
+  <!-- 
+    Essential Scripts
+    =====================================-->
+  <!-- Main jQuery -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+
+  <!-- Bootstrap4 -->
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- Parallax -->
+  <script src="plugins/parallax/jquery.parallax-1.1.3.js"></script>
+  <!-- lightbox -->
+  <script src="plugins/lightbox2/js/lightbox.min.js"></script>
+  <!-- Owl Carousel -->
+  <script src="plugins/slick/slick.min.js"></script>
+  <!-- filter -->
+  <script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+  <!-- Smooth Scroll js -->
+  <script src="plugins/smooth-scroll/smooth-scroll.min.js"></script>
+  <!-- Custom js -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

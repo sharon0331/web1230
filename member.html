@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>會員管理</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="One page parallax responsive HTML Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="generator" content="Themefisher Bingo HTML Template v1.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="https://www.csim.org.tw/sites/default/files/CSIM.gif" />
+
+  <!-- CSS
+  ================================================== -->
+  <!-- Themefisher Icon font -->
+  <link rel="stylesheet" href="plugins/themefisher-font/style.css">
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- Lightbox.min css -->
+  <link rel="stylesheet" href="plugins/lightbox2/css/lightbox.min.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body id="body">
+
+  <!--
+  Start Preloader
+  ==================================== -->
+  <div id="preloader">
+    <div class='preloader'>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <!--End Preloader
+  ==================================== -->
+
+<!--  Fixed Navigation  ===================================== -->
+<header class="navigation fixed-top">
+  <div class="container">
+    <!-- main nav -->
+    <nav class="navbar navbar-expand-lg navbar-light px-0">
+      <!-- logo -->
+      <a class="navbar-brand logo" href="home.html">
+        <img loading="lazy" class="logo-default" style="width: 300px; height: auto;" src="https://images.squarespace-cdn.com/content/v1/5e1350e919199c488a7c6651/27961e07-46cd-49f3-8739-53e9df2c43cd/outer-banks-5eaed5543712c.png"
+          alt="logo" />
+        <img loading="lazy" class="logo-white" style="width: 300px; height: auto;" src="https://images.squarespace-cdn.com/content/v1/5e1350e919199c488a7c6651/27961e07-46cd-49f3-8739-53e9df2c43cd/outer-banks-5eaed5543712c.png"
+          alt="logo" />
+      </a>
+      <!-- /logo -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item dropdown active">
+            <a class="nav-link" href="home.html">首頁</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="course_center.html" id="navbarDropdown02" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              課程專區<i class="tf-ion-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown02">
+              <li><a class="dropdown-item" href="course_center.html">課程清單</a></li>
+              <li><a class="dropdown-item" href="views.html">觀看數據</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="member.html" id="navbarDropdown02" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              會員專區<i class="tf-ion-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown03">
+              <li><a class="dropdown-item" href="member.html">會員管理</a></li>
+              <li><a class="dropdown-item" href="add_member.htm">新增會員</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="authority.html">權限管理</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="login.html">登入</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /main nav -->
+  </div>
+</header>
+<!--  End Fixed Navigation  ==================================== -->
+
+<section class="single-page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>會員管理</h2>
+				<ol class="breadcrumb header-bradcrumb justify-content-center">
+					<li class="breadcrumb-item"><a href="About.html" class="text-white">首頁</a></li>
+					<li class="breadcrumb-item active" aria-current="page">會員管理</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--  Start Our Team  =============================================== -->
+        <section class="team" id="member">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- section title -->
+                    <div class="col-xl-8 col-lg-8">
+                        <div class="title text-center ">
+                            <p>這裡是「會員管理」頁面，您可以管理所有會員的基本資料，並針對需要的用戶進行新增、修改或刪除。透過會員管理
+                              您可以更有效地組織與控制平台中的使用者，以提升教學影片的管理效率。</p>
+                            <div class="border"></div>
+                        </div>
+                    </div>
+                    <!-- /section title -->
+                </div>
+                <div class="row">
+
+
+
+                    <!------- team member 1  ------->
+                    <div class="col-lg-3 col-md-5">
+                        <div class="team-member text-center" style=" padding: 20px;">
+                            <div class="member-photo" 
+                            style="width: 150px; height: 150px; overflow: hidden; 
+                            border-radius: 50%; margin: 0 auto;">
+                                <!-- member photo -->
+                                <img loading="lazy" class="img-fluid" src="https://i.pinimg.com/736x/dd/98/ab/dd98ab8f3660f12b5ba20c5a9b925c16.jpg" alt="Meghna"
+                                style=" width: 100%; height: 100%; object-fit: cover; margin-top: 0px;">
+                                <!-- /member photo -->
+        
+                                <!-- member social profile -->
+                                <div class="mask">
+                                    <ul class="clearfix">
+                                        <li><a href=" " target="_blank"><i class="tf-ion-social-google-outline"></i></a></li>
+                                    </ul>
+                                </div>
+                                <!-- /member social profile -->
+                            </div>
+        
+                            <!-- member name & designation -->
+                            <div class="member-content">
+                                <h3>Blair</h3>
+                                <span>教師<br><br></span>
+                                
+                                <button class="btn btn-light btn-sm" type="button" data-toggle="collapse" data-target="#member1" aria-expanded="false" aria-controls="member1">
+                                詳細資料</br></button>
+                                  <div class="collapse" id="member1"></br>
+                                    <div class="card card-body" style="width: 210px; text-align:left; margin: 0 auto;">
+                                    <form action="繳交資料的php(還沒建立)" method="post">
+                                      <p>
+                                        姓名：Blair
+                                        角色：教師<br>
+                                        課程名稱：國文<br>
+                                        加入日期：2015/01/01<br>
+                                      </p>
+                                        
+                                      <button type="button" class="btn btn-outline-success btn-sm" data-toggle="modal" data-target="#detail">
+                                        編輯</button>
+                                        <!-------=====------- 修改區塊 -------=====------->
+                                        <div class="modal fade" id="detail" tabindex="-1" role="dialog" aria-labelledby="detail-Label" aria-hidden="true">
+                                          <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="detail-Label">修改會員資料</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+
+                                              <div class="modal-body">
+                                                <div class="card card-body" style="width: 400px; text-align: center; margin: 0 auto;">
+                                                  <form action="繳交資料的php(還沒建立)" method="post">
+                                                    <div class="form-group">
+                                                      <label for="name-change">姓名</label>
+                                                      <input type="text" class="form-control" id="name-change" name="name-change" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                      <label for="role-change">角色</label>
+                                                      <input type="text" class="form-control" id="role-change" name="role-change" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                      <label for="course-change">課程名稱</label>
+                                                      <input type="text" class="form-control" id="course-change" name="course-change" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                      <label for="courseDate">加入日期</label>
+                                                      <input type="date" class="form-control" id="courseDate" name="courseDate" required>
+                                                    </div>
+                                                  </form>
+                                                </div>
+                                              </div>
+
+                                              <!--------------- footer按鍵區 -------------->
+                                              <div class="modal-footer">
+                                                
+                                                <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#delete-member">刪除會員</button>
+                                                  <div class="modal fade" id="delete-member" tabindex="-1" role="dialog" aria-labelledby="delete-member-Label" aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                      <div class="modal-content" id="delete-member-Label">
+                                                        <div class="modal-header">
+                                                          <h5 class="modal-title">確認刪除會員？</h5>
+                                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                          </button>
+                                                        </div>
+                                                        <div class="modal-footer" id="delete-confirm">
+                                                          <button type="button" class="btn btn-danger"data-dismiss="modal">確認</button>
+                                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+
+                                                <button type="button" class="btn btn-outline-info">修改</button>
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                                              </div>
+                                              <!--------------- footer按鍵區 -------------->
+
+                                            </div></div></div>
+                                        <!-------=====------- 修改區塊 -------=====------->
+                                      </form>
+                                    </div>
+                                  </div>
+
+                            </div>
+                            <!-- /member name & designation -->
+        
+                        </div>
+                    </div>
+                    <!------- end team member 1  ------->
+        
+
+
+
+                    <!------- team member  2 ------->
+                    <div class="col-lg-3 col-md-5">
+                        <div class="team-member text-center" style=" padding: 20px;">
+                            <div class="member-photo" 
+                            style="width: 150px; height: 150px; overflow: hidden; 
+                            border-radius: 50%; margin: 0 auto;">
+                                <!-- member photo -->
+                                <img loading="lazy" class="img-fluid" src="https://i.pinimg.com/474x/b8/70/03/b87003802e1a75ee6d753448f873384b.jpg" alt="Meghna"
+                                style=" width: 100%; height: 100%; object-fit: cover; margin-top: 0px;">
+                                <!-- member social profile -->
+                                <div class="mask">
+                                    <ul class="clearfix">
+                                        <li><a href=" " target="_blank"><i class="tf-ion-social-google-outline"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+        
+                            <!-- member name & designation -->
+                            <div class="member-content">
+                                <h3>Serena</h3>
+                                <span>教師 微積分<br><br></span>
+                                <button class="btn btn-light btn-sm" type="button" data-toggle="collapse" data-target="#member2" aria-expanded="false" aria-controls="member2">
+                                  詳細資料</br></button>
+                                    <div class="collapse" id="member2"></br>
+                                      <div class="card card-body" style="width: 210px; text-align:left; margin: 0 auto;">
+                                      <form action="繳交資料的php(還沒建立)" method="post">
+                                        <p>
+                                          姓名：
+                                          角色：教師<br>
+                                          課程名稱：國文<br>
+                                          加入日期：2015/01/01<br>
+                                        </p>
+                                          
+                                        <button type="button" class="btn btn-outline-success btn-sm" data-toggle="modal" data-target="#detail">
+                                          編輯</button>
+                                          <!-------=====------- 修改區塊 -------=====------->
+                                          <div class="modal fade" id="detail" tabindex="-1" role="dialog" aria-labelledby="detail-Label" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                              <div class="modal-content">
+  
+                                                <div class="modal-header">
+                                                  <h5 class="modal-title" id="detail-Label">修改會員資料</h5>
+                                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                  </button>
+                                                </div>
+  
+                                                <div class="modal-body">
+                                                  <div class="card card-body" style="width: 400px; text-align: center; margin: 0 auto;">
+                                                    <form action="繳交資料的php(還沒建立)" method="post">
+                                                      <div class="form-group">
+                                                        <label for="name-change">姓名</label>
+                                                        <input type="text" class="form-control" id="name-change" name="name-change" required>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label for="role-change">角色</label>
+                                                        <input type="text" class="form-control" id="role-change" name="role-change" required>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label for="course-change">課程名稱</label>
+                                                        <input type="text" class="form-control" id="course-change" name="course-change" required>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label for="courseDate">加入日期</label>
+                                                        <input type="date" class="form-control" id="courseDate" name="courseDate" required>
+                                                      </div>
+                                                    </form>
+                                                  </div>
+                                                </div>
+  
+                                                <!--------------- footer按鍵區 -------------->
+                                                <div class="modal-footer">
+                                                  
+                                                  <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#delete-member">刪除會員</button>
+                                                    <div class="modal fade" id="delete-member" tabindex="-1" role="dialog" aria-labelledby="delete-member-Label" aria-hidden="true">
+                                                      <div class="modal-dialog" role="document">
+                                                        <div class="modal-content" id="delete-member-Label">
+                                                          <div class="modal-header">
+                                                            <h5 class="modal-title">確認刪除會員？</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                              <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                          </div>
+                                                          <div class="modal-footer" id="delete-confirm">
+                                                            <button type="button" class="btn btn-danger"data-dismiss="modal">確認</button>
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+  
+                                                  <button type="button" class="btn btn-outline-info">修改</button>
+                                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                                                </div>
+                                                <!--------------- footer按鍵區 -------------->
+  
+                                              </div></div></div>
+                                          <!-------=====------- 修改區塊 -------=====------->
+                                        </form>
+                                      </div>
+                                    </div>
+  
+                              </div>
+                              <!-- /member name & designation -->
+                        </div>
+                    </div>
+                    <!------- end team member 2 ------->
+        
+
+                    <!------- team member  3 ------->
+                    <div class="col-lg-3 col-md-5">
+                      <div class="team-member text-center" style=" padding: 20px;">
+                          <div class="member-photo" 
+                          style="width: 150px; height: 150px; overflow: hidden; 
+                          border-radius: 50%; margin: 0 auto;">
+                              <!-- member photo -->
+                              <img loading="lazy" class="img-fluid" src="https://i.pinimg.com/474x/12/76/1a/12761a0eb665ef7bcf83e24254c08808.jpg" alt="Meghna"
+                              style=" width: 100%; height: 100%; object-fit: cover; margin-top: 0px;">
+                              <!-- member social profile -->
+                              <div class="mask">
+                                  <ul class="clearfix">
+                                      <li><a href=" " target="_blank"><i class="tf-ion-social-google-outline"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+      
+                          <!-- member name & designation -->
+                          <div class="member-content">
+                              <h3>Nate</h3>
+                              <span>教師 傳播概論<br><br>
+                                <button type="submit" class="btn btn-light btn-sm" data-toggle="modal" data-target="#submit">
+                                  詳細資料</button>
+                              </span>
+                          </div>
+                      </div>
+                  </div>
+                  <!------- end team member 3 ------->
+
+                  <!------- team member  4 ------->
+                  <div class="col-lg-3 col-md-5">
+                    <div class="team-member text-center" style=" padding: 20px;">
+                        <div class="member-photo" 
+                        style="width: 150px; height: 150px; overflow: hidden; 
+                        border-radius: 50%; margin: 0 auto;">
+                            <!-- member photo -->
+                            <img loading="lazy" class="img-fluid" src="https://i.pinimg.com/474x/ae/42/e7/ae42e7c70fba907dcd7ec7ec93a83f7b.jpg" alt="Meghna"
+                            style=" width: 100%; height: 100%; object-fit: cover; margin-top: 0px;">
+                            <!-- member social profile -->
+                            <div class="mask">
+                                <ul class="clearfix">
+                                    <li><a href=" " target="_blank"><i class="tf-ion-social-google-outline"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <!-- member name & designation -->
+                        <div class="member-content">
+                            <h3>Chuck</h3>
+                            <span>教師 經濟學<br><br>
+                              <button type="submit" class="btn btn-light btn-sm" data-toggle="modal" data-target="#submit">
+                              詳細資料</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end team member -->
+
+
+
+
+
+<!------- team member  4 ------->
+<div class="col-lg-3 col-md-5">
+  <div class="team-member text-center" style=" padding: 20px;">
+      <div class="member-photo" 
+      style="width: 150px; height: 150px; overflow: hidden; 
+      border-radius: 50%; margin: 0 auto;">
+          <!-- member photo -->
+          <img loading="lazy"
+          style=" width: 100%; height: 100%; object-fit: cover; margin-top: 0px;">
+          <!-- member social profile -->
+          <div class="mask">
+              <ul class="clearfix">
+                  <li><a href=" " target="_blank"><i class="tf-ion-social-google-outline"></i></a></li>
+              </ul>
+          </div>
+      </div>
+
+      <!-- member name & designation -->
+      <div class="member-content">
+          <h3>John</h3>
+          <span>教師 <br><br>
+            <button type="submit" class="btn btn-light btn-sm" data-toggle="modal" data-target="#submit">
+            詳細資料</button>
+          </span>
+      </div>
+  </div>
+</div>
+<!-- end team member -->
+
+                </div> <!-- End row -->
+            </div> <!-- End container -->
+        </section>
+
+
+
+
+<!-- end Footer Area
+========================================== -->
+<br/>
+<footer>
+  <div class="small text-center text-muted fst-italic">會址：251301 新北市淡水區英專路151號（資管系辦公室）<br>
+    No.151, Yingzhuan Rd., Tamsui Dist., New Taipei City 251301, Taiwan (R.O.C.)<br>
+    e-mail：csim.service@gmail.com(link sends e-mail)<br>
+    中華民國資訊管理學會 版權所有@2013 CSIM All Rights Reserved.</div>
+    <br>
+</footer>
+
+<!-- 
+    Essential Scripts
+    =====================================-->
+<!-- Main jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap4 -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- Parallax -->
+<script src="plugins/parallax/jquery.parallax-1.1.3.js"></script>
+<!-- lightbox -->
+<script src="plugins/lightbox2/js/lightbox.min.js"></script>
+<!-- Owl Carousel -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- Smooth Scroll js -->
+<script src="plugins/smooth-scroll/smooth-scroll.min.js"></script>
+<!-- Custom js -->
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
